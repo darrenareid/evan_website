@@ -1,0 +1,285 @@
+/* this is where all the styles for the website go */
+  header {
+    background-color: blue;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding-right: 10px;
+    border: 10px solid #e432d7;
+
+  }
+
+  #title {
+
+  font-family: 'apple chancery';
+
+
+
+  }
+
+  #marquee_text {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+  }
+
+  /* THIS IS FOR THE MARQUEE!! */
+  div.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+}
+div.marquee > div.marquee-text {
+    white-space: nowrap;
+    display: inline;
+    width: 700px;
+}
+
+/* THIS IS THE BOUNCING TEXT!! */
+
+  #bounce {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+  }
+
+  #scroll {
+    height: 30px;
+  }
+  section {
+    background-color: #54f9f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  #list {
+    font-size: 40px;
+    font-family: "american typewriter"
+
+  }
+
+  #list2 {
+    padding-top: -50px;
+    padding-bottom: -50px;
+  }
+
+  #section_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+
+
+  }
+
+  #section_text {
+    color: #e01ee9;
+    font-variant: small-caps;
+    font-size: 35px;
+    text-shadow: 0 0 5px white;
+  }
+
+  #whybesttext {
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    border-radius: 10px;
+  }
+
+/* THIS IS CSS FOR THE WHYMOVIE DIALOG */
+
+}
+
+.whymovie {
+
+    display: none; /* Hidden by default */
+    /* make sure you change back to "none" */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(75, 58, 165, 0.6); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.whymoviecontent {
+    background-color: #12d3ff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    width: 40%; /* Could be more or less, depending on screen size */
+    justify-content: flex-start;
+}
+
+/* The Close Button */
+.closewhymovie {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closewhymovie:hover,
+.closewhymovie:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+  footer {
+    background-color : #e432d7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-rght: 20px;
+    border: 5px solid blue;
+
+  }
+
+  #img-1 {
+    height: 90%;
+    border: 10px solid blue;
+    border-radius: 4px;
+  }
+
+  span {
+    color: white
+
+  }
+
+  #title {
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+  }
+
+  #footer {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  body {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   background-color: white;
+   margin: 0;
+  }
+
+  input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    width: 500px;
+    height: 35px;
+    font-size: 30px;
+
+  }
+
+  button {
+    margin: 10px;
+    background-color: pink;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* CSS FOR THE SURVEY BUTTON */
+  #survey {
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+  }
+
+  .modal {
+
+      display: none; /* Hidden by default */
+      /* make sure you change back to "none" */
+      position: absolute; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0px;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(75, 58, 165, 0.6); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+      background-color: #12d3ff;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      border-radius: 12px;
+      border: 5px solid pink;
+      width: 40%; /* Could be more or less, depending on screen size */
+      justify-content: flex-start;
+  }
+
+  /* The Close Button */
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  #name{
+    width: inherit;
+    border-radius: 6px;
+    border: 3px solid pink;
+
+  }
+
+  #answers {
+    display: inline-flex;
+    flex-direction: row;
+
+  }
+
+  #promo {
+    border-style: solid;
+    border-color: pink;
+    border-width: 20px;
+    border-radius: 12px;
+  }
+
+  #videosection {
+    margin-bottom: -15px;
+  }
